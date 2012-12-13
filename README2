@@ -1,0 +1,22 @@
+USO GITHUB
+
+crear repo en local:
+$ git init
+
+$touch README2
+$git add README2
+$git status
+$git commit -m "este es el primer archivo desde mi computadora"
+
+conectar a git remoto
+
+$ git remote add origin https://github.com/ucieda/miweb.git
+
+descarga contenido de git remoto
+
+$ git pull origin master 
+
+subir contenido a git remoto 
+
+$git push origin master 
+
